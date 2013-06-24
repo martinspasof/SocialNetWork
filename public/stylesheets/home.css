@@ -1,0 +1,15 @@
+.image-holder {
+	float: left;
+	margin: 20px;
+	padding: 10px;
+}
+
+.image-holder:hover {
+	background-color: orange;
+}
+
+#home-wrap {
+	margin: 0 auto;
+	width: 950px;
+	padding-top: 100px;
+}

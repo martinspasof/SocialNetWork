@@ -1,0 +1,21 @@
+/*********************************************************************
+
+***                   TWITTER SHARE BUTTON STYLE                   ***
+
+*********************************************************************/
+
+.twitter-share-button,.fb-share-button {
+	inherit: none;
+	display: inline-block;
+	width: 32px;
+    height: 32px;	
+    padding: 0;
+}
+
+#share-on-fb, #share-on-twitter {
+
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+}
+ 

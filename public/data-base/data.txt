@@ -1,0 +1,9 @@
+{
+  "games": [
+   {"name":"Snake", "info":"Best game ever", "srcPic":"../images/testPic.jpg", "gameLink":"http://www.joymax.com/silkroad/", "category":"MMORPG"},
+   {"name":"Game1", "info":"Best game ever", "srcPic":"../images/testPic.jpg", "gameLink":"http://www.joymax.com/silkroad/", "category":"MMORPG"},
+   {"name":"Game2", "info":"Best game ever", "srcPic":"../images/testPic.jpg", "gameLink":"http://www.joymax.com/silkroad/", "category":"MMORPG"},
+   {"name":"Game3", "info":"Best game ever", "srcPic":"../images/testPic.jpg", "gameLink":"http://www.joymax.com/silkroad/", "category":"MMORPG"},
+   {"name":"Game4", "info":"Best game ever", "srcPic":"../images/testPic.jpg", "gameLink":"http://www.joymax.com/silkroad/", "category":"MMORPG"}
+ ]
+}

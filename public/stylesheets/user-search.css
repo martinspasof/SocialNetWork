@@ -1,0 +1,23 @@
+#users {
+	clear:both;
+	overflow: hidden;
+}
+
+.user-container {
+	background-color: lightblue;
+	width: 120px;
+	height: 100px;
+	position: relative;
+	float: left;
+	margin: 10px;
+}
+
+.user-container img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.user-container:hover img {
+	display: none;
+}

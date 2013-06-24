@@ -1,0 +1,1 @@
+{"games":[{"id":"1","name":"Snake","info":"Eat the food and try not to eat your tail","srcPic":"snake.jpg","gameLink":"snake.js","category":"arcade"},{"id":"2","name":"SnowTiger","info":"Cool game.","srcPic":"testPic.jpg","gameLink":"snake.js","category":"test"}]}

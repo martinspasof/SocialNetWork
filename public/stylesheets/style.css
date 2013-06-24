@@ -1,0 +1,150 @@
+/* Site Colors:
+  #1A446C - blue grey
+  #689DC1 - light blue
+  #D4E6F4 - very light blue
+  #EEE4B9 - light tan
+  #8D0D19 - burgundy
+*/
+
+header#main-header, footer {
+	background-color: #33799F;
+	color: #D4E6F4;
+}
+
+#main-content {
+	background-color: #EEE4B9;
+	min-height: 500px
+}
+
+footer, header {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+p, h1, body {
+	margin: 0;
+}
+
+/* New styles */
+
+#slider-content {
+    width:950px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+#slider-content:after, {
+    content: " ";
+    display: block;
+    clear: both;    
+}
+
+#slider-content ul{   
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: block;
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+
+#slider-content ul li img {
+    width: 550px;
+    height: 300px;
+    float:left;
+    padding: 0;
+    margin: 20px 70px 30px 20px;    
+}
+
+#slider-content ul li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width:950px;
+}
+
+#slider-content .gameInfo {   
+    overflow: hidden;  
+}
+
+#slider-content .gameInfo p, #slider-content .gameInfo h2 {
+    width:260px;
+    max-height:170px;
+    overflow: hidden;
+}
+#slider-content .gameInfo h2 {
+    max-height:50px;
+}
+
+#slider {
+    position: relative;
+    overflow: hidden;
+    clear: both;
+
+background: #66ABD0;
+background: -moz-linear-gradient(top,  #33799f 0%, #66abd0 4%, #66abd0 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#33799f), color-stop(4%,#66abd0), color-stop(100%,#66abd0));
+background: -webkit-linear-gradient(top,  #33799f 0%,#66abd0 4%,#66abd0 100%);
+background: -o-linear-gradient(top,  #33799f 0%,#66abd0 4%,#66abd0 100%);
+background: -ms-linear-gradient(top,  #33799f 0%,#66abd0 4%,#66abd0 100%);
+background: linear-gradient(to bottom,  #33799f 0%,#66abd0 4%,#66abd0 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33799f', endColorstr='#66abd0',GradientType=0 );
+
+
+-webkit-box-shadow: 0 6px 8px -6px black;
+-moz-box-shadow: 0 6px 8px -6px black;
+box-shadow: 0 6px 8px -6px black;
+
+
+}
+
+#slider:after {
+    zoom: 1;
+}
+
+#left-arrow {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    width: 128px;
+    height: 354px;
+    float: left;
+	cursor:pointer;
+}
+
+#left-arrow:hover {
+    background-color: rgba(122, 122, 122, 0.3);
+    background-image: url("../images/slider-left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 128px;
+    height: 354px;
+    float: left;
+    cursor:pointer;
+}
+
+#right-arrow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 128px;
+    height: 354px;
+    float: left;
+	cursor:pointer;
+}
+
+#right-arrow:hover {
+    background-color: rgba(122, 122, 122, 0.3);
+    background-image: url("../images/slider-right.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 128px;
+    height: 354px;
+    float: left;
+    cursor:pointer;
+}

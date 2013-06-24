@@ -1,0 +1,19 @@
+#game {
+	margin: 0 auto;
+	width: 400px;
+}
+
+#wrapper {
+	margin: 0 auto;
+}
+
+#game h2 {
+	float: left;
+	margin: 0;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+
+#title img {
+	float: left;
+}

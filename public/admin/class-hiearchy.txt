@@ -1,0 +1,20 @@
+SliderItem:
+ - sourcePic
+ - Name
+ - info
+ - gameLink
+ - category
+
+Game:
+  - category
+  - ?
+
+APIController:
+ - apis ?? 
+
+MenuCotroller:
+  
+  
+Slider:
+ - SliderItems[];
+ - 

@@ -1,0 +1,1 @@
+{"games":[{"id":"1","picture":"default.jpg","username":"stringbitking","password":"olimpa","first_name":"Victor","last_name":"Tsenkov"},{"id":"2","picture":"roof.jpg","username":"ivancho","password":"ivancho","first_name":"ivan","last_name":"ivanov"},{"id":"3","picture":"Minesweeper.png","username":"Martin","password":"martin","first_name":"Martin","last_name":"Spasov"}]}

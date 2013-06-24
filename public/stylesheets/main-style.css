@@ -1,0 +1,86 @@
+header#main-header, footer, header#user-panel {
+	background-color: #33799F;
+	color: #D4E6F4;
+}
+
+header {
+	    -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+}
+
+#user-panel {
+
+	float:left;
+	line-height: 25px;
+	font-size: 20px;
+	margin:12px 0 0 20px;
+}
+
+#user-panel a {
+
+	text-decoration: none;
+	background-color: #1A446C;
+	color: #D4E6F4;
+	margin-left: 10px;
+}
+
+#main-nav ul {
+	list-style: none;
+}
+
+#main-nav ul li {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 25px;
+	font-size: 20px;
+	border-right: 2px solid #D4E6F4;
+	padding-left: 5px;
+	padding-right: 8px;
+}
+
+
+#main-nav ul li:last-child {
+	border-right: none;
+}
+
+#main-nav ul li a {
+	color: #D4E6F4;
+	text-decoration: none;
+}
+
+#main-nav ul li:hover a,#user-panel a:hover {
+	color: white;
+	background-color: lightblue;
+}
+
+#main-content {
+	background-color: #82B5D0;
+	min-height: 500px
+}
+
+#api-buttons {
+
+	position: absolute;
+	top: 23px;
+	right: 10px;
+	
+}
+
+header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer, header {
+	text-align: center;
+}
+
+p, h1, body {
+	margin: 0;
+}
